@@ -13,7 +13,7 @@ const Header = () => {
               alt="logo background"
             />
             <img className="logo" src="images/top-vector.png" alt="logo" />
-            <span className="brand-text">Dukaan</span>
+            <span className="brand-text">dukaan</span>
           </div>
         </div>
         <div className="nav">
