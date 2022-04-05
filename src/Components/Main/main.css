@@ -1,6 +1,7 @@
 main label {
-  margin-bottom: 1rem;
-  font-size: 0.9rem;
+      margin-bottom: 1rem;
+    font-size: .8rem;
+    font-weight: 600;
 }
 main h1 {
   padding-top: 2rem;
