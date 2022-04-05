@@ -1,0 +1,103 @@
+main label {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+main h1 {
+  padding-top: 2rem;
+}
+.main-wrapper {
+  margin: 0 6rem;
+}
+.hero-wrapper {
+  background: #fafafa;
+  height: 90rem;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.generate-btn {
+  color: white;
+  background: #146eb4;
+  border: none;
+  padding: 0.7rem 2rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.overlay {
+  background: white;
+  width: 70%;
+  position: absolute;
+  top: -150px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  margin: 2rem 0;
+}
+.result-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-title p {
+  display: inline;
+  font-weight: bold;
+}
+.download-all-btn {
+  background-color: white;
+  color: #146eb4;
+  border: 1px solid #146eb4;
+  height: 2rem;
+  widows: 100%;
+  border-radius: 3px;
+  margin-right: 0.7rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid p {
+  padding: 0 1rem;
+  font-size: 0.9rem;
+}
+.card {
+  display: flex;
+  flex-flow: column;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.card .info {
+  border-radius: 5px;
+  flex-grow: 1;
+  background-color: #f2f2f2;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 3rem 0px;
+}
+.links-wrapper {
+  margin-right: 5rem;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.pagination a.active {
+  background-color: #146eb4;
+
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}

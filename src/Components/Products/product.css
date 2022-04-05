@@ -1,0 +1,27 @@
+.products-wrapper {
+  margin: 5rem 11rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: black;
+  column-gap: 13px;
+  row-gap: 20px;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  font-size: 30px;
+}
+.grid-item img {
+  width: 250px;
+}
+.grid-item span {
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+}
+.grid-item p {
+  font-size: 0.8rem;
+  color: #4d4d4d;
+  margin: 0.3rem 0;
+}

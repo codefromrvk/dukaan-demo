@@ -1,0 +1,32 @@
+.options-box {
+  display: flex;
+  height: 200px;
+  background-color: #146eb417;
+  align-items: center;
+  padding: 1rem 10rem;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
+.options-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.options-wrapper div {
+  width: 30%;
+  text-align: center;
+}
+.options-wrapper img {
+  width: 42px;
+  height: 40px;
+}
+.option-item > span {
+  display: block;
+  font-weight: 600;
+  margin: 1rem;
+}
+.option-item p {
+  font-size: 0.9rem;
+  color: #4d4d4d;
+}

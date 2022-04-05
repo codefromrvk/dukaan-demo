@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600&display=swap");
+
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.container {
+  padding: 0 10rem;
+}
+:root {
+  --primary-color: #146eb4;
+  --secondary-color: white;
+}
+.download-btn {
+  background: white;
+  color: #146eb4;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  border: 1px solid #146eb4;
+}

@@ -1,0 +1,49 @@
+.header {
+  background: #146eb4;
+  height: 20rem;
+  color: white;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.brand {
+  /* display: relative; */
+}
+
+.logo-img {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.bg-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  z-index: 2;
+}
+.brand-text {
+  /* position: absolute;
+  top: 22px;
+  left: 59px; */
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 60px;
+  font-size: 1.3rem;
+}
+.nav {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+}
+.nav span {
+  margin-right: 1rem;
+}
